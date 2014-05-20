@@ -24,14 +24,14 @@ public class PackageItemSemanticEditPolicy extends
 	 * @generated
 	 */
 	protected Command getCreateCommand(CreateElementRequest req) {
-		if (umlMM.diagram.providers.UMLElementTypes.Datatype_2001 == req
-				.getElementType()) {
-			return getGEFWrapper(new umlMM.diagram.edit.commands.DatatypeCreateCommand(
-					req));
-		}
 		if (umlMM.diagram.providers.UMLElementTypes.Class_2002 == req
 				.getElementType()) {
 			return getGEFWrapper(new umlMM.diagram.edit.commands.ClassCreateCommand(
+					req));
+		}
+		if (umlMM.diagram.providers.UMLElementTypes.Datatype_2001 == req
+				.getElementType()) {
+			return getGEFWrapper(new umlMM.diagram.edit.commands.DatatypeCreateCommand(
 					req));
 		}
 		return super.getCreateCommand(req);

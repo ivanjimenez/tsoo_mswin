@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umlMM:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:umlMM="http://es.uclm/umlMM">
+  <Association name="cc" destination="//@classifier.0" source="//@classifier.2"/>
+  <Association name="cliente-entidad" destination="//@classifier.0" source="//@classifier.1"/>
+  <classifier xsi:type="umlMM:Class" name="cliente" destinationOf="//@Association.0 //@Association.1"/>
+  <classifier xsi:type="umlMM:Class" name="Entidad" sourceOf="//@Association.1"/>
+  <classifier xsi:type="umlMM:Class" name="CuentaCorriente" sourceOf="//@Association.0"/>
+  <classifier xsi:type="umlMM:Datatype" name="nombre"/>
+  <classifier xsi:type="umlMM:Datatype" name="direccion"/>
+</umlMM:Package>

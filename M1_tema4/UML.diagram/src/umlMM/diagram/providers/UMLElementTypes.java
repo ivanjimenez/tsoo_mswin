@@ -173,10 +173,10 @@ public class UMLElementTypes {
 			elements.put(Package_1000,
 					umlMM.UmlMMPackage.eINSTANCE.getPackage());
 
+			elements.put(Class_2002, umlMM.UmlMMPackage.eINSTANCE.getClass_());
+
 			elements.put(Datatype_2001,
 					umlMM.UmlMMPackage.eINSTANCE.getDatatype());
-
-			elements.put(Class_2002, umlMM.UmlMMPackage.eINSTANCE.getClass_());
 
 			elements.put(Associaton_4001,
 					umlMM.UmlMMPackage.eINSTANCE.getAssociaton());
@@ -198,8 +198,8 @@ public class UMLElementTypes {
 		if (KNOWN_ELEMENT_TYPES == null) {
 			KNOWN_ELEMENT_TYPES = new HashSet<IElementType>();
 			KNOWN_ELEMENT_TYPES.add(Package_1000);
-			KNOWN_ELEMENT_TYPES.add(Datatype_2001);
 			KNOWN_ELEMENT_TYPES.add(Class_2002);
+			KNOWN_ELEMENT_TYPES.add(Datatype_2001);
 			KNOWN_ELEMENT_TYPES.add(Associaton_4001);
 		}
 		return KNOWN_ELEMENT_TYPES.contains(elementType);
@@ -212,10 +212,10 @@ public class UMLElementTypes {
 		switch (visualID) {
 		case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID:
 			return Package_1000;
-		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
-			return Datatype_2001;
 		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
 			return Class_2002;
+		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
+			return Datatype_2001;
 		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
 			return Associaton_4001;
 		}

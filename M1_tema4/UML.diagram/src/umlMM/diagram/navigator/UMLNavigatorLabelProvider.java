@@ -76,18 +76,18 @@ public class UMLNavigatorLabelProvider extends LabelProvider implements
 	 */
 	public Image getImage(View view) {
 		switch (umlMM.diagram.part.UMLVisualIDRegistry.getVisualID(view)) {
-		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
-			return getImage(
-					"Navigator?Link?http://es.uclm/umlMM?Associaton", umlMM.diagram.providers.UMLElementTypes.Associaton_4001); //$NON-NLS-1$
 		case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID:
 			return getImage(
 					"Navigator?Diagram?http://es.uclm/umlMM?Package", umlMM.diagram.providers.UMLElementTypes.Package_1000); //$NON-NLS-1$
-		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
-			return getImage(
-					"Navigator?TopLevelNode?http://es.uclm/umlMM?Class", umlMM.diagram.providers.UMLElementTypes.Class_2002); //$NON-NLS-1$
 		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
 			return getImage(
 					"Navigator?TopLevelNode?http://es.uclm/umlMM?Datatype", umlMM.diagram.providers.UMLElementTypes.Datatype_2001); //$NON-NLS-1$
+		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
+			return getImage(
+					"Navigator?Link?http://es.uclm/umlMM?Associaton", umlMM.diagram.providers.UMLElementTypes.Associaton_4001); //$NON-NLS-1$
+		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
+			return getImage(
+					"Navigator?TopLevelNode?http://es.uclm/umlMM?Class", umlMM.diagram.providers.UMLElementTypes.Class_2002); //$NON-NLS-1$
 		}
 		return getImage("Navigator?UnknownElement", null); //$NON-NLS-1$
 	}
@@ -143,14 +143,14 @@ public class UMLNavigatorLabelProvider extends LabelProvider implements
 			return getUnresolvedDomainElementProxyText(view);
 		}
 		switch (umlMM.diagram.part.UMLVisualIDRegistry.getVisualID(view)) {
-		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
-			return getAssociaton_4001Text(view);
 		case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID:
 			return getPackage_1000Text(view);
-		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
-			return getClass_2002Text(view);
 		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
 			return getDatatype_2001Text(view);
+		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
+			return getAssociaton_4001Text(view);
+		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
+			return getClass_2002Text(view);
 		}
 		return getUnknownElementText(view);
 	}

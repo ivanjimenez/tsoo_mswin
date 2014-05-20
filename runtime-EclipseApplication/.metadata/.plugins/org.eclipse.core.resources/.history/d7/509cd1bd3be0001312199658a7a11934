@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umlMM:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:umlMM="http://es.uclm/umlMM">
+  <classifier xsi:type="umlMM:Class" name="Cliente">
+    <attribute name="nombre" type="//@classifier.3"/>
+  </classifier>
+  <classifier xsi:type="umlMM:Class" name="Entidad">
+    <attribute name="direccion"/>
+  </classifier>
+  <classifier xsi:type="umlMM:Class" name="CuentaCorriente">
+    <attribute name="numero" type="//@classifier.4"/>
+  </classifier>
+  <classifier xsi:type="umlMM:Datatype" name="string" typeOf="//@classifier.0/@attribute.0"/>
+  <classifier xsi:type="umlMM:Datatype" name="int" typeOf="//@classifier.2/@attribute.0"/>
+</umlMM:Package>

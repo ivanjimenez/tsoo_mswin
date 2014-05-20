@@ -135,8 +135,8 @@ public class UMLViewProvider extends AbstractProvider implements IViewProvider {
 					return false; // foreign diagram
 				}
 				switch (visualID) {
-				case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
 				case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
+				case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
 					if (domainElement == null
 							|| visualID != umlMM.diagram.part.UMLVisualIDRegistry
 									.getNodeVisualID(op.getContainerView(),
@@ -149,8 +149,8 @@ public class UMLViewProvider extends AbstractProvider implements IViewProvider {
 				}
 			}
 		}
-		return umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID == visualID
-				|| umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID == visualID;
+		return umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID == visualID
+				|| umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID == visualID;
 	}
 
 	/**
@@ -210,11 +210,11 @@ public class UMLViewProvider extends AbstractProvider implements IViewProvider {
 					.getVisualID(semanticHint);
 		}
 		switch (visualID) {
-		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
-			return createDatatype_2001(domainElement, containerView, index,
-					persisted, preferencesHint);
 		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
 			return createClass_2002(domainElement, containerView, index,
+					persisted, preferencesHint);
+		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
+			return createDatatype_2001(domainElement, containerView, index,
 					persisted, preferencesHint);
 		}
 		// can't happen, provided #provides(CreateNodeViewOperation) is correct
@@ -292,6 +292,8 @@ public class UMLViewProvider extends AbstractProvider implements IViewProvider {
 	public Node createClass_2002(EObject domainElement, View containerView,
 			int index, boolean persisted, PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
+		node.getStyles().add(
+				NotationFactory.eINSTANCE.createHintedDiagramLinkStyle());
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
 		node.setType(umlMM.diagram.part.UMLVisualIDRegistry
 				.getType(umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID));

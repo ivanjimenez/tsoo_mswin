@@ -34,7 +34,9 @@ public class UMLPaletteFactory {
 		paletteContainer.setId("createUmlMM1Group"); //$NON-NLS-1$
 		paletteContainer.add(createAssociaton1CreationTool());
 		paletteContainer.add(createClass2CreationTool());
-		paletteContainer.add(createDatatype3CreationTool());
+		paletteContainer.add(createAttribute3CreationTool());
+		paletteContainer.add(createClassifier4CreationTool());
+		paletteContainer.add(createDatatype5CreationTool());
 		return paletteContainer;
 	}
 
@@ -42,12 +44,44 @@ public class UMLPaletteFactory {
 	 * @generated
 	 */
 	private ToolEntry createAssociaton1CreationTool() {
-		NodeToolEntry entry = new NodeToolEntry(
+		LinkToolEntry entry = new LinkToolEntry(
 				umlMM.diagram.part.Messages.Associaton1CreationTool_title,
 				umlMM.diagram.part.Messages.Associaton1CreationTool_desc,
 				Collections
-						.singletonList(umlMM.diagram.providers.UMLElementTypes.Datatype_2001));
+						.singletonList(umlMM.diagram.providers.UMLElementTypes.Associaton_4001));
 		entry.setId("createAssociaton1CreationTool"); //$NON-NLS-1$
+		entry.setSmallIcon(umlMM.diagram.providers.UMLElementTypes
+				.getImageDescriptor(umlMM.diagram.providers.UMLElementTypes.Associaton_4001));
+		entry.setLargeIcon(entry.getSmallIcon());
+		return entry;
+	}
+
+	/**
+	 * @generated
+	 */
+	private ToolEntry createClass2CreationTool() {
+		NodeToolEntry entry = new NodeToolEntry(
+				umlMM.diagram.part.Messages.Class2CreationTool_title,
+				umlMM.diagram.part.Messages.Class2CreationTool_desc,
+				Collections
+						.singletonList(umlMM.diagram.providers.UMLElementTypes.Class_2002));
+		entry.setId("createClass2CreationTool"); //$NON-NLS-1$
+		entry.setSmallIcon(umlMM.diagram.providers.UMLElementTypes
+				.getImageDescriptor(umlMM.diagram.providers.UMLElementTypes.Class_2002));
+		entry.setLargeIcon(entry.getSmallIcon());
+		return entry;
+	}
+
+	/**
+	 * @generated
+	 */
+	private ToolEntry createAttribute3CreationTool() {
+		NodeToolEntry entry = new NodeToolEntry(
+				umlMM.diagram.part.Messages.Attribute3CreationTool_title,
+				umlMM.diagram.part.Messages.Attribute3CreationTool_desc,
+				Collections
+						.singletonList(umlMM.diagram.providers.UMLElementTypes.Datatype_2001));
+		entry.setId("createAttribute3CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(umlMM.diagram.providers.UMLElementTypes
 				.getImageDescriptor(umlMM.diagram.providers.UMLElementTypes.Datatype_2001));
 		entry.setLargeIcon(entry.getSmallIcon());
@@ -57,28 +91,26 @@ public class UMLPaletteFactory {
 	/**
 	 * @generated
 	 */
-	private ToolEntry createClass2CreationTool() {
+	private ToolEntry createClassifier4CreationTool() {
 		ToolEntry entry = new ToolEntry(
-				umlMM.diagram.part.Messages.Class2CreationTool_title,
-				umlMM.diagram.part.Messages.Class2CreationTool_desc, null, null) {
+				umlMM.diagram.part.Messages.Classifier4CreationTool_title,
+				umlMM.diagram.part.Messages.Classifier4CreationTool_desc, null,
+				null) {
 		};
-		entry.setId("createClass2CreationTool"); //$NON-NLS-1$
+		entry.setId("createClassifier4CreationTool"); //$NON-NLS-1$
 		return entry;
 	}
 
 	/**
 	 * @generated
 	 */
-	private ToolEntry createDatatype3CreationTool() {
-		NodeToolEntry entry = new NodeToolEntry(
-				umlMM.diagram.part.Messages.Datatype3CreationTool_title,
-				umlMM.diagram.part.Messages.Datatype3CreationTool_desc,
-				Collections
-						.singletonList(umlMM.diagram.providers.UMLElementTypes.Class_2002));
-		entry.setId("createDatatype3CreationTool"); //$NON-NLS-1$
-		entry.setSmallIcon(umlMM.diagram.providers.UMLElementTypes
-				.getImageDescriptor(umlMM.diagram.providers.UMLElementTypes.Class_2002));
-		entry.setLargeIcon(entry.getSmallIcon());
+	private ToolEntry createDatatype5CreationTool() {
+		ToolEntry entry = new ToolEntry(
+				umlMM.diagram.part.Messages.Datatype5CreationTool_title,
+				umlMM.diagram.part.Messages.Datatype5CreationTool_desc, null,
+				null) {
+		};
+		entry.setId("createDatatype5CreationTool"); //$NON-NLS-1$
 		return entry;
 	}
 

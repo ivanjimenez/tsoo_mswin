@@ -214,6 +214,36 @@ public class UMLNavigatorContentProvider implements ICommonContentProvider {
 	private Object[] getViewChildren(View view, Object parentElement) {
 		switch (umlMM.diagram.part.UMLVisualIDRegistry.getVisualID(view)) {
 
+		case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID: {
+			LinkedList<umlMM.diagram.navigator.UMLAbstractNavigatorItem> result = new LinkedList<umlMM.diagram.navigator.UMLAbstractNavigatorItem>();
+			Diagram sv = (Diagram) view;
+			umlMM.diagram.navigator.UMLNavigatorGroup links = new umlMM.diagram.navigator.UMLNavigatorGroup(
+					umlMM.diagram.part.Messages.NavigatorGroupName_Package_1000_links,
+					"icons/linksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			Collection<View> connectedViews;
+			connectedViews = getChildrenByType(
+					Collections.singleton(sv),
+					umlMM.diagram.part.UMLVisualIDRegistry
+							.getType(umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID));
+			result.addAll(createNavigatorItems(connectedViews, parentElement,
+					false));
+			connectedViews = getChildrenByType(
+					Collections.singleton(sv),
+					umlMM.diagram.part.UMLVisualIDRegistry
+							.getType(umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID));
+			result.addAll(createNavigatorItems(connectedViews, parentElement,
+					false));
+			connectedViews = getDiagramLinksByType(
+					Collections.singleton(sv),
+					umlMM.diagram.part.UMLVisualIDRegistry
+							.getType(umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID));
+			links.addChildren(createNavigatorItems(connectedViews, links, false));
+			if (!links.isEmpty()) {
+				result.add(links);
+			}
+			return result.toArray();
+		}
+
 		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID: {
 			LinkedList<umlMM.diagram.navigator.UMLAbstractNavigatorItem> result = new LinkedList<umlMM.diagram.navigator.UMLAbstractNavigatorItem>();
 			Edge sv = (Edge) view;
@@ -241,36 +271,6 @@ public class UMLNavigatorContentProvider implements ICommonContentProvider {
 			}
 			if (!source.isEmpty()) {
 				result.add(source);
-			}
-			return result.toArray();
-		}
-
-		case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID: {
-			LinkedList<umlMM.diagram.navigator.UMLAbstractNavigatorItem> result = new LinkedList<umlMM.diagram.navigator.UMLAbstractNavigatorItem>();
-			Diagram sv = (Diagram) view;
-			umlMM.diagram.navigator.UMLNavigatorGroup links = new umlMM.diagram.navigator.UMLNavigatorGroup(
-					umlMM.diagram.part.Messages.NavigatorGroupName_Package_1000_links,
-					"icons/linksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			Collection<View> connectedViews;
-			connectedViews = getChildrenByType(
-					Collections.singleton(sv),
-					umlMM.diagram.part.UMLVisualIDRegistry
-							.getType(umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID));
-			result.addAll(createNavigatorItems(connectedViews, parentElement,
-					false));
-			connectedViews = getChildrenByType(
-					Collections.singleton(sv),
-					umlMM.diagram.part.UMLVisualIDRegistry
-							.getType(umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID));
-			result.addAll(createNavigatorItems(connectedViews, parentElement,
-					false));
-			connectedViews = getDiagramLinksByType(
-					Collections.singleton(sv),
-					umlMM.diagram.part.UMLVisualIDRegistry
-							.getType(umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID));
-			links.addChildren(createNavigatorItems(connectedViews, links, false));
-			if (!links.isEmpty()) {
-				result.add(links);
 			}
 			return result.toArray();
 		}

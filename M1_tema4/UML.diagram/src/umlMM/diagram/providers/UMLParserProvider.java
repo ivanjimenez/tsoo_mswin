@@ -62,10 +62,10 @@ public class UMLParserProvider extends AbstractProvider implements
 	 */
 	protected IParser getParser(int visualID) {
 		switch (visualID) {
-		case umlMM.diagram.edit.parts.DatatypeNameEditPart.VISUAL_ID:
-			return getDatatypeName_5001Parser();
 		case umlMM.diagram.edit.parts.ClassNameEditPart.VISUAL_ID:
 			return getClassName_5002Parser();
+		case umlMM.diagram.edit.parts.DatatypeNameEditPart.VISUAL_ID:
+			return getDatatypeName_5001Parser();
 		}
 		return null;
 	}

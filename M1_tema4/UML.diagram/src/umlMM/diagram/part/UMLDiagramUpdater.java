@@ -44,12 +44,12 @@ public class UMLDiagramUpdater {
 			umlMM.Classifier childElement = (umlMM.Classifier) it.next();
 			int visualID = umlMM.diagram.part.UMLVisualIDRegistry
 					.getNodeVisualID(view, childElement);
-			if (visualID == umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID) {
+			if (visualID == umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID) {
 				result.add(new umlMM.diagram.part.UMLNodeDescriptor(
 						childElement, visualID));
 				continue;
 			}
-			if (visualID == umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID) {
+			if (visualID == umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID) {
 				result.add(new umlMM.diagram.part.UMLNodeDescriptor(
 						childElement, visualID));
 				continue;
@@ -66,10 +66,10 @@ public class UMLDiagramUpdater {
 		switch (umlMM.diagram.part.UMLVisualIDRegistry.getVisualID(view)) {
 		case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID:
 			return getPackage_1000ContainedLinks(view);
-		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
-			return getDatatype_2001ContainedLinks(view);
 		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
 			return getClass_2002ContainedLinks(view);
+		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
+			return getDatatype_2001ContainedLinks(view);
 		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
 			return getAssociaton_4001ContainedLinks(view);
 		}
@@ -82,10 +82,10 @@ public class UMLDiagramUpdater {
 	public static List<umlMM.diagram.part.UMLLinkDescriptor> getIncomingLinks(
 			View view) {
 		switch (umlMM.diagram.part.UMLVisualIDRegistry.getVisualID(view)) {
-		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
-			return getDatatype_2001IncomingLinks(view);
 		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
 			return getClass_2002IncomingLinks(view);
+		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
+			return getDatatype_2001IncomingLinks(view);
 		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
 			return getAssociaton_4001IncomingLinks(view);
 		}
@@ -98,10 +98,10 @@ public class UMLDiagramUpdater {
 	public static List<umlMM.diagram.part.UMLLinkDescriptor> getOutgoingLinks(
 			View view) {
 		switch (umlMM.diagram.part.UMLVisualIDRegistry.getVisualID(view)) {
-		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
-			return getDatatype_2001OutgoingLinks(view);
 		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
 			return getClass_2002OutgoingLinks(view);
+		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
+			return getDatatype_2001OutgoingLinks(view);
 		case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
 			return getAssociaton_4001OutgoingLinks(view);
 		}

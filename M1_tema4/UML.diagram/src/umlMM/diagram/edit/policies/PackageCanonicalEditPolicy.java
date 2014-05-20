@@ -70,8 +70,8 @@ public class PackageCanonicalEditPolicy extends CanonicalEditPolicy {
 	 */
 	private boolean isMyDiagramElement(View view) {
 		int visualID = umlMM.diagram.part.UMLVisualIDRegistry.getVisualID(view);
-		return visualID == umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID
-				|| visualID == umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID;
+		return visualID == umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID
+				|| visualID == umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID;
 	}
 
 	/**
@@ -233,10 +233,10 @@ public class PackageCanonicalEditPolicy extends CanonicalEditPolicy {
 			}
 			break;
 		}
-		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID: {
+		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
 				result.addAll(umlMM.diagram.part.UMLDiagramUpdater
-						.getDatatype_2001ContainedLinks(view));
+						.getClass_2002ContainedLinks(view));
 			}
 			if (!domain2NotationMap.containsKey(view.getElement())
 					|| view.getEAnnotation("Shortcut") == null) { //$NON-NLS-1$
@@ -244,10 +244,10 @@ public class PackageCanonicalEditPolicy extends CanonicalEditPolicy {
 			}
 			break;
 		}
-		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID: {
+		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
 				result.addAll(umlMM.diagram.part.UMLDiagramUpdater
-						.getClass_2002ContainedLinks(view));
+						.getDatatype_2001ContainedLinks(view));
 			}
 			if (!domain2NotationMap.containsKey(view.getElement())
 					|| view.getEAnnotation("Shortcut") == null) { //$NON-NLS-1$

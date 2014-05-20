@@ -30,17 +30,17 @@ public class UMLEditPartFactory implements EditPartFactory {
 			case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID:
 				return new umlMM.diagram.edit.parts.PackageEditPart(view);
 
-			case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
-				return new umlMM.diagram.edit.parts.DatatypeEditPart(view);
-
-			case umlMM.diagram.edit.parts.DatatypeNameEditPart.VISUAL_ID:
-				return new umlMM.diagram.edit.parts.DatatypeNameEditPart(view);
-
 			case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
 				return new umlMM.diagram.edit.parts.ClassEditPart(view);
 
 			case umlMM.diagram.edit.parts.ClassNameEditPart.VISUAL_ID:
 				return new umlMM.diagram.edit.parts.ClassNameEditPart(view);
+
+			case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
+				return new umlMM.diagram.edit.parts.DatatypeEditPart(view);
+
+			case umlMM.diagram.edit.parts.DatatypeNameEditPart.VISUAL_ID:
+				return new umlMM.diagram.edit.parts.DatatypeNameEditPart(view);
 
 			case umlMM.diagram.edit.parts.AssociatonEditPart.VISUAL_ID:
 				return new umlMM.diagram.edit.parts.AssociatonEditPart(view);

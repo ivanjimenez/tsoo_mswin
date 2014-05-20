@@ -118,13 +118,13 @@ public class UMLVisualIDRegistry {
 		}
 		switch (containerVisualID) {
 		case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID:
-			if (umlMM.UmlMMPackage.eINSTANCE.getDatatype().isSuperTypeOf(
-					domainElement.eClass())) {
-				return umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID;
-			}
 			if (umlMM.UmlMMPackage.eINSTANCE.getClass_().isSuperTypeOf(
 					domainElement.eClass())) {
 				return umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID;
+			}
+			if (umlMM.UmlMMPackage.eINSTANCE.getDatatype().isSuperTypeOf(
+					domainElement.eClass())) {
+				return umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID;
 			}
 			break;
 		}
@@ -155,20 +155,20 @@ public class UMLVisualIDRegistry {
 		}
 		switch (containerVisualID) {
 		case umlMM.diagram.edit.parts.PackageEditPart.VISUAL_ID:
-			if (umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
 			if (umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			break;
-		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
-			if (umlMM.diagram.edit.parts.DatatypeNameEditPart.VISUAL_ID == nodeVisualID) {
+			if (umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
 		case umlMM.diagram.edit.parts.ClassEditPart.VISUAL_ID:
 			if (umlMM.diagram.edit.parts.ClassNameEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case umlMM.diagram.edit.parts.DatatypeEditPart.VISUAL_ID:
+			if (umlMM.diagram.edit.parts.DatatypeNameEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;

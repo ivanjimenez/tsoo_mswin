@@ -34,8 +34,8 @@ public class UMLModelingAssistantProvider extends ModelingAssistantProvider {
 				.getAdapter(IGraphicalEditPart.class);
 		if (editPart instanceof umlMM.diagram.edit.parts.PackageEditPart) {
 			ArrayList<IElementType> types = new ArrayList<IElementType>(2);
-			types.add(umlMM.diagram.providers.UMLElementTypes.Datatype_2001);
 			types.add(umlMM.diagram.providers.UMLElementTypes.Class_2002);
+			types.add(umlMM.diagram.providers.UMLElementTypes.Datatype_2001);
 			return types;
 		}
 		return Collections.EMPTY_LIST;

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:umlMM="http://es.uclm/umlMM" xmi:id="_g0UcweA1EeOqe4AOKN26yg" type="UML" name="tema3.umlmm_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_i0vcYOA1EeOqe4AOKN26yg" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i0x4oOA1EeOqe4AOKN26yg" type="5002"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_i0vcYeA1EeOqe4AOKN26yg"/>
+    <element xmi:type="umlMM:Class" href="tema3.umlmm#//@classifier.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i0vcYuA1EeOqe4AOKN26yg" x="85" y="70" width="158" height="59"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_oNHPQOA1EeOqe4AOKN26yg" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oNH2UOA1EeOqe4AOKN26yg" type="5002"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_oNHPQeA1EeOqe4AOKN26yg"/>
+    <element xmi:type="umlMM:Class" href="tema3.umlmm#//@classifier.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oNHPQuA1EeOqe4AOKN26yg" x="400" y="50"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_pQEhEOA1EeOqe4AOKN26yg" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pQFIIOA1EeOqe4AOKN26yg" type="5002"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_pQEhEeA1EeOqe4AOKN26yg"/>
+    <element xmi:type="umlMM:Class" href="tema3.umlmm#//@classifier.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pQEhEuA1EeOqe4AOKN26yg" x="349" y="168"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_tyhYkOA1EeOqe4AOKN26yg" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tyh_oOA1EeOqe4AOKN26yg" type="5001"/>
+    <element xmi:type="umlMM:Datatype" href="tema3.umlmm#//@classifier.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tyhYkeA1EeOqe4AOKN26yg" x="395" y="100"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_g0UcwuA1EeOqe4AOKN26yg"/>
+  <element xmi:type="umlMM:Package" href="tema3.umlmm#/"/>
+</notation:Diagram>

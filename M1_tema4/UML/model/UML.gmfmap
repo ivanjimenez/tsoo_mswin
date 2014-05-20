@@ -8,6 +8,27 @@
   <nodes>
     <containmentFeature
         href="UML.ecore#//Package/classifier"/>
+    <ownedChild
+        relatedDiagrams="//@diagram">
+      <domainMetaElement
+          href="UML.ecore#//Class"/>
+      <labelMappings
+          xsi:type="gmfmap:FeatureLabelMapping">
+        <diagramLabel
+            href="My.gmfgraph#ClassName"/>
+        <features
+            href="UML.ecore#//Classifier/name"/>
+      </labelMappings>
+      <tool
+          xsi:type="gmftool:CreationTool"
+          href="UML.gmftool#//@palette/@tools.0/@tools.1"/>
+      <diagramNode
+          href="My.gmfgraph#Class"/>
+    </ownedChild>
+  </nodes>
+  <nodes>
+    <containmentFeature
+        href="UML.ecore#//Package/classifier"/>
     <ownedChild>
       <domainMetaElement
           href="UML.ecore#//Datatype"/>
@@ -20,29 +41,9 @@
       </labelMappings>
       <tool
           xsi:type="gmftool:CreationTool"
-          href="UML.gmftool#//@palette/@tools.0/@tools.0"/>
-      <diagramNode
-          href="My.gmfgraph#Datatype"/>
-    </ownedChild>
-  </nodes>
-  <nodes>
-    <containmentFeature
-        href="UML.ecore#//Package/classifier"/>
-    <ownedChild>
-      <domainMetaElement
-          href="UML.ecore#//Class"/>
-      <labelMappings
-          xsi:type="gmfmap:FeatureLabelMapping">
-        <diagramLabel
-            href="My.gmfgraph#ClassName"/>
-        <features
-            href="UML.ecore#//Classifier/name"/>
-      </labelMappings>
-      <tool
-          xsi:type="gmftool:CreationTool"
           href="UML.gmftool#//@palette/@tools.0/@tools.2"/>
       <diagramNode
-          href="My.gmfgraph#Class"/>
+          href="My.gmfgraph#Datatype"/>
     </ownedChild>
   </nodes>
   <links

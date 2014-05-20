@@ -246,3 +246,13 @@ org.eclipse.core.runtime.CoreException: The variable activeEditor is not defined
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 !SUBENTRY 1 org.eclipse.core.expressions 4 301 2014-05-20 10:37:34.673
 !MESSAGE The variable activeEditor is not defined
+!SESSION 2014-05-20 11:23:32.205 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-05-20 11:24:41.767
+!MESSAGE Both 'org.eclipse.gmf.bridge.trace' and 'org.eclipse.xpand.incremental' register an extension parser for 'trace'
