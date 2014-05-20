@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="qvt.launchType">
+<stringAttribute key="qvt.debugModel.ATTR_CLEAR" value="true"/>
+<stringAttribute key="qvt.debugModel.ATTR_DIRECTION" value="rdbms"/>
+<stringAttribute key="qvt.debugModel.ATTR_QVT_MODELLIST" value="platform:/resource/UML/model/ERmodel.xmi"/>
+<stringAttribute key="qvt.debugModel.ATTR_QVT_PROGRAM" value="/UML/model/uml2er.qvt"/>
+<stringAttribute key="qvt.debugModel.ATTR_TRACES_DIR" value="/UML.diagram/src/umlMM/traces"/>
+</launchConfiguration>

@@ -1,0 +1,8 @@
+#Tue May 20 10:14:20 CLT 2014
+eclipse.preferences.version=1
+gmf_dashboard/domainGenerationModel=platform\:/resource/UML/model/UML.genmodel
+gmf_dashboard/domainModel=platform\:/resource/UML/model/UML.ecore
+gmf_dashboard/generationModel=platform\:/resource/UML/model/UML.gmfgen
+gmf_dashboard/graphicalDefinitionModel=platform\:/resource/UML/model/My.gmfgraph
+gmf_dashboard/mappingModel=platform\:/resource/UML/model/UML.gmfmap
+gmf_dashboard/toolingDefinitionModel=platform\:/resource/UML/model/UML.gmftool

@@ -1,0 +1,72 @@
+!SESSION 2014-05-19 14:07:54.366 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data C:\Users\Alvarroco\Desktop\eclipse/../runtime-EclipseApplication -dev file:C:/Users/Alvarroco/Desktop/eclipse/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-05-19 14:08:04.280
+!MESSAGE Both 'org.eclipse.gmf.bridge.trace' and 'org.eclipse.xpand.incremental' register an extension parser for 'trace'
+!SESSION 2014-05-19 15:12:39.844 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data C:\Users\Alvarroco\Desktop\eclipse/../runtime-EclipseApplication -dev file:C:/Users/Alvarroco/Desktop/eclipse/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-05-19 15:12:47.086
+!MESSAGE Both 'org.eclipse.gmf.bridge.trace' and 'org.eclipse.xpand.incremental' register an extension parser for 'trace'
+!SESSION 2014-05-19 16:24:04.149 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data C:\Users\Alvarroco\workspace\M1/../runtime-EclipseApplication -dev file:C:/Users/Alvarroco/workspace/M1/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-05-19 16:24:11.383
+!MESSAGE Both 'org.eclipse.gmf.bridge.trace' and 'org.eclipse.xpand.incremental' register an extension parser for 'trace'
+!SESSION 2014-05-20 10:15:01.311 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data C:\Users\Alvarroco\workspace\M1_tema4/../runtime-EclipseApplication -dev file:C:/Users/Alvarroco/workspace/M1_tema4/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-05-20 10:15:08.637
+!MESSAGE Both 'org.eclipse.gmf.bridge.trace' and 'org.eclipse.xpand.incremental' register an extension parser for 'trace'
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-20 10:15:09.739
+!MESSAGE NLS unused message: Attribute3CreationTool_title in: messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-20 10:15:09.743
+!MESSAGE NLS unused message: Attribute3CreationTool_desc in: messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-20 10:15:09.746
+!MESSAGE NLS unused message: Datatype4CreationTool_title in: messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-20 10:15:09.751
+!MESSAGE NLS unused message: Datatype4CreationTool_desc in: messages
+!SESSION 2014-05-20 10:23:23.052 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data C:\Users\Alvarroco\workspace\M1_tema4/../runtime-EclipseApplication -dev file:C:/Users/Alvarroco/workspace/M1_tema4/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-05-20 10:23:27.215
+!MESSAGE Both 'org.eclipse.gmf.bridge.trace' and 'org.eclipse.xpand.incremental' register an extension parser for 'trace'
+!SESSION 2014-05-20 10:27:16.300 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data C:\Users\Alvarroco\workspace\M1_tema4/../runtime-EclipseApplication -dev file:C:/Users/Alvarroco/workspace/M1_tema4/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-05-20 10:27:20.427
+!MESSAGE Both 'org.eclipse.gmf.bridge.trace' and 'org.eclipse.xpand.incremental' register an extension parser for 'trace'

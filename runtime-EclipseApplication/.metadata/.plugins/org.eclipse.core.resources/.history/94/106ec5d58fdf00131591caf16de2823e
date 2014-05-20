@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:umlMM="http://es.uclm/umlMM" xmi:id="_S_5QYd-BEeO8FaKratOelw" type="UML" name="grmydiagram.umlmm_diagram" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_S_5QYt-BEeO8FaKratOelw"/>
+  <element xmi:type="umlMM:Package" href="grmydiagram.umlmm#/"/>
+</notation:Diagram>

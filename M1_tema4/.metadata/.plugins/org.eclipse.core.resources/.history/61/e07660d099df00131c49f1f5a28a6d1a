@@ -1,0 +1,18 @@
+transformation uml2er (uml:umlMM, rdbms:ER)
+{
+key ER::Table {name, schema};
+}
+
+relation PackageToSchema {
+
+pn: String;
+
+checkonly domain uml p:Package {
+	name = pn
+};
+
+enforce domain rdbms s:Schema {
+	name = pn
+};
+
+}

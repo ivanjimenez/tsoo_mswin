@@ -1,0 +1,4 @@
+#Mon May 19 14:58:22 CLT 2014
+eclipse.preferences.version=1
+gmf_dashboard/domainGenerationModel=platform\:/resource/UML/model/UML.genmodel
+gmf_dashboard/domainModel=platform\:/resource/UML/model/UML.ecore

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:umlMM="http://es.uclm/umlMM" xmi:id="_EEhnkOAhEeOAPpsncFkDsQ" type="UML" name="myDiag.umlmm_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_Gb-nIOAhEeOAPpsncFkDsQ" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Gb_OMOAhEeOAPpsncFkDsQ" type="5002"/>
+    <element xmi:type="umlMM:Class" href="myDiag.umlmm#//@classifier.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gb-nIeAhEeOAPpsncFkDsQ" x="462" y="88"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_EEhnkeAhEeOAPpsncFkDsQ"/>
+  <element xmi:type="umlMM:Package" href="myDiag.umlmm#/"/>
+</notation:Diagram>

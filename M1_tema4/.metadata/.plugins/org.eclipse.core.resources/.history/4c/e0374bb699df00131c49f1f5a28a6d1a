@@ -1,0 +1,4 @@
+transformation uml2er (uml:umlMM, rdbms:ER)
+{
+key ER::Table {name, schema};
+}
