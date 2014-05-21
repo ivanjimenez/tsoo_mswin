@@ -36,17 +36,8 @@
     <descriptors
         name="AttributeFigure">
       <actualFigure
-          xsi:type="gmfgraph:Rectangle"
-          name="AttributeFigure">
-        <layout
-            xsi:type="gmfgraph:FlowLayout"/>
-        <children
-            xsi:type="gmfgraph:Label"
-            name="AttributeNameFigure"
-            text="&lt;...>"/>
-      </actualFigure>
-      <accessors
-          figure="//@figures.0/@descriptors.2/@actualFigure/@children.0"/>
+          xsi:type="gmfgraph:Label"
+          name="AttributeFigure"/>
     </descriptors>
     <descriptors
         name="ClassifierFigure">
@@ -81,9 +72,6 @@
       name="Class"
       figure="ClassFigure"/>
   <nodes
-      name="Attribute"
-      figure="AttributeFigure"/>
-  <nodes
       name="Datatype"
       figure="DatatypeFigure"/>
   <connections
@@ -92,6 +80,9 @@
   <connections
       name="Classifier"
       figure="ClassifierFigure"/>
+  <compartments
+      name="AttributeCompartment"
+      figure="ClassFigure"/>
   <labels
       name="AssociatonName"
       figure="AssociatonFigure"
@@ -102,8 +93,7 @@
       accessor="//@figures.0/@descriptors.1/@accessors.0"/>
   <labels
       name="AttributeName"
-      figure="AttributeFigure"
-      accessor="//@figures.0/@descriptors.2/@accessors.0"/>
+      figure="AttributeFigure"/>
   <labels
       name="ClassifierName"
       figure="ClassifierFigure"
@@ -112,4 +102,7 @@
       name="DatatypeName"
       figure="DatatypeFigure"
       accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels
+      name="AttributeProperty"
+      figure="AttributeFigure"/>
 </gmfgraph:Canvas>

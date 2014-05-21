@@ -8,14 +8,13 @@
   <nodes>
     <containmentFeature
         href="UML.ecore#//Package/classifier"/>
-    <ownedChild
-        relatedDiagrams="//@diagram">
+    <ownedChild>
       <domainMetaElement
-          href="UML.ecore#//Class"/>
+          href="UML.ecore#//Datatype"/>
       <labelMappings
           xsi:type="gmfmap:FeatureLabelMapping">
         <diagramLabel
-            href="My.gmfgraph#ClassName"/>
+            href="UML.gmfgraph#DatatypeName"/>
         <features
             href="UML.ecore#//Classifier/name"/>
       </labelMappings>
@@ -23,19 +22,20 @@
           xsi:type="gmftool:CreationTool"
           href="UML.gmftool#//@palette/@tools.0/@tools.1"/>
       <diagramNode
-          href="My.gmfgraph#Class"/>
+          href="UML.gmfgraph#Datatype"/>
     </ownedChild>
   </nodes>
   <nodes>
     <containmentFeature
         href="UML.ecore#//Package/classifier"/>
-    <ownedChild>
+    <ownedChild
+        relatedDiagrams="//@diagram">
       <domainMetaElement
-          href="UML.ecore#//Datatype"/>
+          href="UML.ecore#//Class"/>
       <labelMappings
           xsi:type="gmfmap:FeatureLabelMapping">
         <diagramLabel
-            href="My.gmfgraph#DatatypeName"/>
+            href="UML.gmfgraph#ClassName"/>
         <features
             href="UML.ecore#//Classifier/name"/>
       </labelMappings>
@@ -43,7 +43,35 @@
           xsi:type="gmftool:CreationTool"
           href="UML.gmftool#//@palette/@tools.0/@tools.2"/>
       <diagramNode
-          href="My.gmfgraph#Datatype"/>
+          href="UML.gmfgraph#Class"/>
+      <children
+          compartment="//@nodes.1/@ownedChild/@compartments.0">
+        <containmentFeature
+            href="UML.ecore#//Class/attribute"/>
+        <ownedChild>
+          <domainMetaElement
+              href="UML.ecore#//Attribute"/>
+          <labelMappings
+              xsi:type="gmfmap:FeatureLabelMapping">
+            <diagramLabel
+                href="UML.gmfgraph#AttributeProperty"/>
+            <features
+                href="UML.ecore#//Attribute/name"/>
+            <editableFeatures
+                href="UML.ecore#//Attribute/name"/>
+          </labelMappings>
+          <tool
+              xsi:type="gmftool:CreationTool"
+              href="UML.gmftool#//@palette/@tools.0/@tools.2"/>
+          <diagramNode
+              href="UML.gmfgraph#AttributeProperty"/>
+        </ownedChild>
+      </children>
+      <compartments
+          children="//@nodes.1/@ownedChild/@children.0">
+        <compartment
+            href="UML.gmfgraph#AttributeCompartment"/>
+      </compartments>
     </ownedChild>
   </nodes>
   <links
@@ -56,7 +84,7 @@
         xsi:type="gmftool:CreationTool"
         href="UML.gmftool#//@palette/@tools.0/@tools.0"/>
     <diagramLink
-        href="My.gmfgraph#Associaton"/>
+        href="UML.gmfgraph#Associaton"/>
     <sourceMetaFeature
         xsi:type="ecore:EReference"
         href="UML.ecore#//Associaton/source"/>
@@ -66,7 +94,7 @@
   </links>
   <diagram>
     <diagramCanvas
-        href="My.gmfgraph#UMLMM"/>
+        href="UML.gmfgraph#umlMM"/>
     <domainModel
         href="UML.ecore#/"/>
     <domainMetaElement

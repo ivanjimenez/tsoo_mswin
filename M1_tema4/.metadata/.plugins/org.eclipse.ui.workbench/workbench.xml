@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="33" version="2.0">
+<workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
 <window height="751" width="1040" x="112" y="112">
 <fastViewData fastViewLocation="1024"/>
@@ -18,6 +18,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.pde.ui.manifestEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.gmf.codegen.gmfgen.presentation.GMFGenEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="qvt.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -25,7 +26,7 @@
 <coolItem id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.emf.codegen.ecore.genmodel.presentation.GenModelEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID" itemType="typeToolBarContribution" x="1008" y="22"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.emf.ecore.presentation.EcoreEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ocl.examples.xtext.oclinecore.Ecore" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -45,6 +46,7 @@
 <part id="5"/>
 <part id="6"/>
 <part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
@@ -59,20 +61,25 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UML/model/uml2er.qvt"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="250" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" name="UML.gmfgraph" partName="UML.gmfgraph" path="C:/Users/Alvarroco/workspace/M1_tema4/UML/model/UML.gmfgraph" title="UML.gmfgraph" tooltip="UML/model/UML.gmfgraph" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" name="UML.gmfgraph" partName="UML.gmfgraph" path="C:/Users/Alvarroco/workspace/tsoo_mswin/M1_tema4/UML/model/UML.gmfgraph" title="UML.gmfgraph" tooltip="UML/model/UML.gmfgraph" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UML/model/UML.gmfgraph"/>
-</editor>
-<editor id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" name="My.gmfgraph" partName="My.gmfgraph" path="C:/Users/Alvarroco/workspace/M1_tema4/UML/model/My.gmfgraph" title="My.gmfgraph" tooltip="UML/model/My.gmfgraph" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UML/model/My.gmfgraph"/>
 </editor>
 <editor id="org.eclipse.gmf.codegen.gmfgen.presentation.GMFGenEditorID" name="UML.gmfgen" partName="UML.gmfgen" path="C:/Users/Alvarroco/workspace/M1_tema4/UML/model/UML.gmfgen" title="UML.gmfgen" tooltip="UML/model/UML.gmfgen" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UML/model/UML.gmfgen"/>
 </editor>
-<editor id="org.eclipse.gmf.tooldef.presentation.GMFToolEditorID" name="UML.gmftool" partName="UML.gmftool" path="C:/Users/Alvarroco/workspace/M1_tema4/UML/model/UML.gmftool" title="UML.gmftool" tooltip="UML/model/UML.gmftool" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.gmf.tooldef.presentation.GMFToolEditorID" name="UML.gmftool" partName="UML.gmftool" path="C:/Users/Alvarroco/workspace/tsoo_mswin/M1_tema4/UML/model/UML.gmftool" title="UML.gmftool" tooltip="UML/model/UML.gmftool" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UML/model/UML.gmftool"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" name="UML.gmfmap" partName="UML.gmfmap" path="C:/Users/Alvarroco/workspace/M1_tema4/UML/model/UML.gmfmap" title="UML.gmfmap" tooltip="UML/model/UML.gmfmap" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" name="UML.gmfmap" partName="UML.gmfmap" path="C:/Users/Alvarroco/workspace/tsoo_mswin/M1_tema4/UML/model/UML.gmfmap" title="UML.gmfmap" tooltip="UML/model/UML.gmfmap" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UML/model/UML.gmfmap"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" partName="MANIFEST.MF" path="C:/Users/Alvarroco/workspace/tsoo_mswin/M1_tema4/UML/META-INF/MANIFEST.MF" title="MANIFEST.MF" tooltip="UML/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UML/META-INF/MANIFEST.MF"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" partName="MANIFEST.MF" path="C:/Users/Alvarroco/workspace/tsoo_mswin/M1_tema4/UML.edit/META-INF/MANIFEST.MF" title="MANIFEST.MF" tooltip="UML.edit/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UML.edit/META-INF/MANIFEST.MF"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -84,9 +91,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (87 items)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="642"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -156,7 +163,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -295,18 +302,8 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" path="/UML/model/UML.gmfmap"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.EcoreEditorID" path="/UML/model/UML.ecore"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.tooldef.presentation.GMFToolEditorID" path="/UML/model/My.gmftool"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/UML.gmfgraph"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" path="/UML/model/My.gmfmap"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID" path="/UML/model/UML.ecorediag"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/My.gmfgraph"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.tooldef.presentation.GMFToolEditorID" path="/UML/model/UML.gmftool"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" path="/UML/model/UML.gmfmap"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/ERmodel.xmi"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/UMLmodel.xmi"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/UMLModel.xmi"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/ERmodel.xmi"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" path="/UML/model/UML.gmfmap"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.tooldef.presentation.GMFToolEditorID" path="/UML/model/UML.gmftool"/>
@@ -314,57 +311,74 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.EcoreEditorID" path="/UML/model/UML.ecore"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/My.gmfgraph"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.codegen.gmfgen.presentation.GMFGenEditorID" path="/UML/model/UML.gmfgen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.tooldef.presentation.GMFToolEditorID" path="/UML/model/UML.gmftool"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/My.gmfgraph"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.ReflectiveEditorID" path="/UML/model/UML.gmfgraph"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" path="/UML/model/UML.gmfmap"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/UML/META-INF/MANIFEST.MF"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/UML.edit/META-INF/MANIFEST.MF"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/UML.edit/META-INF/MANIFEST.MF"/>
 </editors>
-<item historyLabel="My.gmfmap" index="4"/>
-<item historyLabel="UML.ecorediag" index="5"/>
-<item historyLabel="My.gmfmap" index="4"/>
-<item historyLabel="UML.gmfmap" index="0"/>
-<item historyLabel="My.gmfmap" index="4"/>
-<item historyLabel="UML.gmfgraph" index="3"/>
-<item historyLabel="My.gmfmap" index="4"/>
-<item historyLabel="UML.ecore" index="1"/>
-<item historyLabel="My.gmftool" index="2"/>
-<item historyLabel="UML.gmfmap" index="0"/>
-<item historyLabel="UML.gmfgraph" index="3"/>
-<item historyLabel="My.gmfgraph" index="6"/>
-<item historyLabel="My.gmftool" index="2"/>
-<item historyLabel="My.gmfgraph" index="6"/>
-<item historyLabel="UML.gmftool" index="7"/>
-<item historyLabel="UML.gmfmap" index="8"/>
-<item historyLabel="ERmodel.xmi" index="9"/>
-<item historyLabel="UMLmodel.xmi" index="10"/>
-<item historyLabel="UMLModel.xmi" index="11"/>
-<item historyLabel="UMLmodel.xmi" index="10"/>
-<item historyLabel="ERmodel.xmi" index="9"/>
-<item historyLabel="UMLmodel.xmi" index="10"/>
-<item historyLabel="ERmodel.xmi" index="12"/>
-<item historyLabel="UML.gmfmap" index="13"/>
-<item historyLabel="UML.gmftool" index="14"/>
-<item historyLabel="UML.gmfmap" index="13"/>
-<item historyLabel="UML.gmftool" index="14"/>
-<item historyLabel="UML.gmfmap" index="15"/>
-<item historyLabel="UML.gmftool" index="14"/>
-<item historyLabel="UML.gmfmap" index="15"/>
-<item historyLabel="UML.gmftool" index="14"/>
-<item historyLabel="ERmodel.xmi" index="12"/>
-<item historyLabel="UMLmodel.xmi" index="10"/>
-<item historyLabel="UML.ecore" index="16"/>
-<item historyLabel="My.gmfgraph" index="17"/>
-<item historyLabel="UML.gmfgen" index="18"/>
-<item historyLabel="My.gmfgraph" index="17"/>
-<item historyLabel="UML.gmftool" index="14"/>
-<item historyLabel="UML.gmfgen" index="18"/>
-<item historyLabel="UML.gmftool" index="14"/>
-<item historyLabel="UML.ecore" index="16"/>
-<item historyLabel="My.gmfgraph" index="17"/>
-<item historyLabel="UML.ecore" index="16"/>
-<item historyLabel="My.gmfgraph" index="17"/>
-<item historyLabel="UML.gmfgen" index="18"/>
-<item historyLabel="UML.gmftool" index="14"/>
-<item historyLabel="UML.gmfgen" index="18"/>
-<item historyLabel="UML.gmfmap" index="15"/>
-<item historyLabel="UML.gmftool" index="14"/>
-<item active="true" historyLabel="UML.gmfmap" index="15"/>
+<item historyLabel="UMLmodel.xmi" index="1"/>
+<item historyLabel="ERmodel.xmi" index="0"/>
+<item historyLabel="UMLmodel.xmi" index="1"/>
+<item historyLabel="ERmodel.xmi" index="2"/>
+<item historyLabel="UML.gmfmap" index="3"/>
+<item historyLabel="UML.gmftool" index="4"/>
+<item historyLabel="UML.gmfmap" index="3"/>
+<item historyLabel="UML.gmftool" index="4"/>
+<item historyLabel="UML.gmfmap" index="5"/>
+<item historyLabel="UML.gmftool" index="4"/>
+<item historyLabel="UML.gmfmap" index="5"/>
+<item historyLabel="UML.gmftool" index="4"/>
+<item historyLabel="ERmodel.xmi" index="2"/>
+<item historyLabel="UMLmodel.xmi" index="1"/>
+<item historyLabel="UML.ecore" index="6"/>
+<item historyLabel="My.gmfgraph" index="7"/>
+<item historyLabel="UML.gmfgen" index="8"/>
+<item historyLabel="My.gmfgraph" index="7"/>
+<item historyLabel="UML.gmftool" index="4"/>
+<item historyLabel="UML.gmfgen" index="8"/>
+<item historyLabel="UML.gmftool" index="4"/>
+<item historyLabel="UML.ecore" index="6"/>
+<item historyLabel="My.gmfgraph" index="7"/>
+<item historyLabel="UML.ecore" index="6"/>
+<item historyLabel="My.gmfgraph" index="7"/>
+<item historyLabel="UML.gmfgen" index="8"/>
+<item historyLabel="UML.gmftool" index="4"/>
+<item historyLabel="UML.gmfgen" index="8"/>
+<item historyLabel="UML.gmfmap" index="5"/>
+<item historyLabel="UML.gmftool" index="4"/>
+<item historyLabel="UML.gmfmap" index="5"/>
+<item historyLabel="UML.gmftool" index="9"/>
+<item historyLabel="My.gmfgraph" index="10"/>
+<item historyLabel="UML.gmfgraph" index="11"/>
+<item historyLabel="UML.gmfmap" index="12"/>
+<item historyLabel="UML.gmfgraph" index="11"/>
+<item historyLabel="UML.gmfmap" index="12"/>
+<item historyLabel="UML.gmfgraph" index="11"/>
+<item historyLabel="UML.gmfmap" index="12"/>
+<item historyLabel="MANIFEST.MF" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UML.gmfmap" index="12"/>
+<item historyLabel="UML.gmfgraph" index="11"/>
+<item historyLabel="UML.gmfmap" index="12"/>
+<item historyLabel="UML.gmftool" index="9"/>
+<item historyLabel="UML.gmfmap" index="12"/>
+<item historyLabel="MANIFEST.MF" index="13">
+<position info="not_deleted" x="440" y="0"/>
+</item>
+<item historyLabel="MANIFEST.MF" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UML.edit" index="14"/>
+<item historyLabel="MANIFEST.MF" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="MANIFEST.MF" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -382,6 +396,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" tooltip="UML.edit/META-INF/MANIFEST.MF">
+<persistable path="/UML.edit/META-INF/MANIFEST.MF"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" tooltip="UML/META-INF/MANIFEST.MF">
+<persistable path="/UML/META-INF/MANIFEST.MF"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.gmf.mappings.presentation.GMFMapEditorID" name="UML.gmfmap" tooltip="UML/model/UML.gmfmap">
 <persistable path="/UML/model/UML.gmfmap"/>
 </file>
@@ -420,9 +440,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID" name="UML.ecorediag" tooltip="UML/model/UML.ecorediag">
 <persistable path="/UML/model/UML.ecorediag"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="UML.ecore" tooltip="UML/model/UML.ecore">
-<persistable path="/UML/model/UML.ecore"/>
 </file>
 </mruList>
 </workbench>

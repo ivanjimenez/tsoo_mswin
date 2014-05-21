@@ -396,53 +396,6 @@
       <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EReference"/>
     </exportedObjects>
   </builderState:ResourceDescription>
-  <builderState:ResourceDescription URI="archive:file:/C:/Users/Alvarroco/Desktop/eclipse/plugins/org.eclipse.emf.ecore_2.6.1.v20100914-1218.jar!/model/XMLNamespace.ecore">
-    <exportedObjects name="namespace" fragment="/">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EPackage"/>
-    </exportedObjects>
-    <exportedObjects name="LangType" fragment="//LangType">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EDataType"/>
-    </exportedObjects>
-    <exportedObjects name="LangTypeNull" fragment="//LangTypeNull">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EDataType"/>
-    </exportedObjects>
-    <exportedObjects name="SpaceType" fragment="//SpaceType">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EEnum"/>
-    </exportedObjects>
-    <exportedObjects name="default" fragment="//SpaceType/default">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EEnumLiteral"/>
-    </exportedObjects>
-    <exportedObjects name="preserve" fragment="//SpaceType/preserve">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EEnumLiteral"/>
-    </exportedObjects>
-    <exportedObjects name="SpaceTypeObject" fragment="//SpaceTypeObject">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EDataType"/>
-    </exportedObjects>
-    <exportedObjects name="XMLNamespaceDocumentRoot" fragment="//XMLNamespaceDocumentRoot">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EClass"/>
-    </exportedObjects>
-    <exportedObjects name="mixed" fragment="//XMLNamespaceDocumentRoot/mixed">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
-    </exportedObjects>
-    <exportedObjects name="xMLNSPrefixMap" fragment="//XMLNamespaceDocumentRoot/xMLNSPrefixMap">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EReference"/>
-    </exportedObjects>
-    <exportedObjects name="xSISchemaLocation" fragment="//XMLNamespaceDocumentRoot/xSISchemaLocation">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EReference"/>
-    </exportedObjects>
-    <exportedObjects name="base" fragment="//XMLNamespaceDocumentRoot/base">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
-    </exportedObjects>
-    <exportedObjects name="id" fragment="//XMLNamespaceDocumentRoot/id">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
-    </exportedObjects>
-    <exportedObjects name="lang" fragment="//XMLNamespaceDocumentRoot/lang">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
-    </exportedObjects>
-    <exportedObjects name="space" fragment="//XMLNamespaceDocumentRoot/space">
-      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
-    </exportedObjects>
-  </builderState:ResourceDescription>
   <builderState:ResourceDescription URI="archive:file:/C:/Users/Alvarroco/Desktop/eclipse/plugins/org.eclipse.emf.ecore_2.6.1.v20100914-1218.jar!/model/Ecore.ecore">
     <exportedObjects name="ecore" fragment="/">
       <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EPackage"/>
@@ -1061,6 +1014,53 @@
     </exportedObjects>
     <exportedObjects name="EInvocationTargetException" fragment="//EInvocationTargetException">
       <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EDataType"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="archive:file:/C:/Users/Alvarroco/Desktop/eclipse/plugins/org.eclipse.emf.ecore_2.6.1.v20100914-1218.jar!/model/XMLNamespace.ecore">
+    <exportedObjects name="namespace" fragment="/">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EPackage"/>
+    </exportedObjects>
+    <exportedObjects name="LangType" fragment="//LangType">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EDataType"/>
+    </exportedObjects>
+    <exportedObjects name="LangTypeNull" fragment="//LangTypeNull">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EDataType"/>
+    </exportedObjects>
+    <exportedObjects name="SpaceType" fragment="//SpaceType">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EEnum"/>
+    </exportedObjects>
+    <exportedObjects name="default" fragment="//SpaceType/default">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EEnumLiteral"/>
+    </exportedObjects>
+    <exportedObjects name="preserve" fragment="//SpaceType/preserve">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EEnumLiteral"/>
+    </exportedObjects>
+    <exportedObjects name="SpaceTypeObject" fragment="//SpaceTypeObject">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EDataType"/>
+    </exportedObjects>
+    <exportedObjects name="XMLNamespaceDocumentRoot" fragment="//XMLNamespaceDocumentRoot">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EClass"/>
+    </exportedObjects>
+    <exportedObjects name="mixed" fragment="//XMLNamespaceDocumentRoot/mixed">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
+    </exportedObjects>
+    <exportedObjects name="xMLNSPrefixMap" fragment="//XMLNamespaceDocumentRoot/xMLNSPrefixMap">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EReference"/>
+    </exportedObjects>
+    <exportedObjects name="xSISchemaLocation" fragment="//XMLNamespaceDocumentRoot/xSISchemaLocation">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EReference"/>
+    </exportedObjects>
+    <exportedObjects name="base" fragment="//XMLNamespaceDocumentRoot/base">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
+    </exportedObjects>
+    <exportedObjects name="id" fragment="//XMLNamespaceDocumentRoot/id">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
+    </exportedObjects>
+    <exportedObjects name="lang" fragment="//XMLNamespaceDocumentRoot/lang">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
+    </exportedObjects>
+    <exportedObjects name="space" fragment="//XMLNamespaceDocumentRoot/space">
+      <eClass href="http://www.eclipse.org/emf/2002/Ecore#//EAttribute"/>
     </exportedObjects>
   </builderState:ResourceDescription>
 </xmi:XMI>
